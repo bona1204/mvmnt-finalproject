@@ -1,14 +1,6 @@
-# WebApp boilerplate with React JS and Flask API
+# MVMNT
 
-Build web applications using React.js for the front end and python/flask for your backend API .
-
-- Documentation can be found here: https://start.4geeksacademy.com/starters/react-flask
-- Here is a video on [how to use this template](https://www.loom.com/share/f37c6838b3f1496c95111e515e83dd9b)
-- Integrated with Pipenv for package managing.
-- Fast deloyment to heroku [in just a few steps here](https://start.4geeksacademy.com/backend/deploy-heroku-posgres).
-- Use of .env file.
-- SQLAlchemy integration for database abstraction.
-
+MVMNT is a fitness web application for a coach called Martin Fiasche, Using React, Flask, Mysql and jwt authentication
 ### Manual Installation:
 
 It is recomended to install the backend first, make sure you have Python 3.8, Pipenv and a database engine (Posgress recomended)`
@@ -27,27 +19,6 @@ It is recomended to install the backend first, make sure you have Python 3.8, Pi
 5. Run the migrations: `$ pipenv run upgrade`
 6. Run the application: `$ pipenv run start`
 
-### Backend Populate Table Users
-
-To insert test users in the database execute the following command:
-
-```sh
-$ flask insert-test-users 5
-```
-
-And you will see the following message:
-
-```
-  Creating test users
-  test_user1@test.com created.
-  test_user2@test.com created.
-  test_user3@test.com created.
-  test_user4@test.com created.
-  test_user5@test.com created.
-  Users created successfully!
-```
-
-To update with all yours tables you can edit the file app.py and go to the line 80 to insert the code to populate others tables
 
 ### Front-End Manual Installation:
 
@@ -56,12 +27,35 @@ To update with all yours tables you can edit the file app.py and go to the line 
 1. Install the packages: `$ npm install`
 2. Start coding! start the webpack dev server `$ npm run start`
 
-## Publish your website!
 
-This boilerplate it's 100% read to deploy with Render.com and Heroku in a matter of minutes. Please read the [official documentation about it](https://start.4geeksacademy.com/deploy).
+## Usage
+Run pipenv run and npm run start you need tu have a database created
 
-### Contributors
+## User VIEWS
 
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/)...
+### Home
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/cf1cd8a8-4da0-4a6b-ae78-3bed9d77c5c0)
+### About
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/4085f48b-7cbb-4abd-bc62-e114e2ee4491)
+### Reviews
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/9278d67a-379c-4b04-9233-13449b9ab5b9)
+### Individualized
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/da204046-905e-4ff0-b234-b42dca4b3b6a)
+### Movement
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/6213ddbd-46d4-4e25-b450-e60c095872df)
+### Acrobatics
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/7a8f87b4-1649-4a11-883a-12cacada9afe)
+### Events
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/03fddb28-6ccf-4b7a-a224-74b4df72f04b)
+### Contact me
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/c73bff25-ecca-49c5-a3d3-6598eeb475d2)
+### Login
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/04b95377-4825-4805-968e-a46d5a329fac)
+### Register
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/2d3f51a2-18d6-4cc6-9c08-5c925e47d192)
+### Recover password
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/ad246121-6b2b-45b5-a95e-6a224a5a8dc5)
+### Inside the program
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/b942b72d-080f-4b0a-8ca5-ff2f407b3d93)
+### Profile picture update
+![image](https://github.com/bona1204/mvmnt-finalproject/assets/39720065/99366316-39df-4247-bc0a-e145a5186e1c)
